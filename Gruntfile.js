@@ -84,7 +84,7 @@ module.exports = function (grunt) {
 			options: {
         appName: 'Teamwall',
         appVersion: '0.0.1',
-				version: '0.9.2',
+				version: '0.10.1',
 				build_dir: './build', // where the build version of my node-webkit app is saved
 				keep_nw: true,
 				embed_nw: false,
@@ -107,7 +107,7 @@ module.exports = function (grunt) {
 				cmd: '"build/cache/win/<%= nodewebkit.options.version %>/nw.exe" .'
 			},
 			mac: {
-				cmd: 'build/cache/mac/<%= nodewebkit.options.version %>/node-webkit.app/Contents/MacOS/node-webkit .'
+				cmd: 'cache/<%= nodewebkit.options.version %>/osx/node-webkit.app/Contents/MacOS/node-webkit .'
 			},
 			linux32: {
 				cmd: '"build/cache/linux32/<%= nodewebkit.options.version %>/nw" .'

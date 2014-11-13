@@ -10,10 +10,11 @@
   },
   "window": {
     "title": "Teamwall",
-    "toolbar": false,
+    "toolbar-tada": false,
     "min_width": 960,
     "min_height": 520,
-    "resizable": true
+    "resizable": true,
+    "show_in_taskbar": false
   },
   "author": "Henrik Wallström",
   "license": "GPL",
